@@ -1,0 +1,14 @@
+.first-parent {
+  width: 478px;
+  height: 834px;
+  padding-top: 64px;
+  padding-bottom: 448px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background: #f9fafb;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+  display: inline-flex;
+}
