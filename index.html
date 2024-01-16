@@ -4,257 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daily Tasks</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div
-      style="
-        width: 478px;
-        height: 834px;
-        padding-top: 64px;
-        padding-bottom: 448px;
-        padding-left: 30px;
-        padding-right: 30px;
-        background: #f9fafb;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        gap: 30px;
-        display: inline-flex;
-      "
-    >
-      <div
-        style="
-          align-self: stretch;
-          padding: 16px;
-          background: #d0d5dd;
-          border-radius: 8px;
-          border: 1px #98a2b3 solid;
-          justify-content: space-between;
-          align-items: flex-start;
-          display: inline-flex;
-        "
-      >
-        <div
-          style="
-            padding: 8px;
-            justify-content: center;
-            align-items: center;
-            gap: 8px;
-            display: flex;
-          "
-        >
-          <div
-            style="
-              color: #1d2939;
-              font-size: 16px;
-              font-family: Poppins;
-              font-weight: 500;
-              word-wrap: break-word;
-            "
-          >
-            Today’s To Do
-          </div>
-        </div>
-        <div
-          style="
-            width: 40px;
-            height: 40px;
-            padding: 8px;
-            background: #98a2b3;
-            border-radius: 8px;
-            overflow: hidden;
-            justify-content: flex-start;
-            align-items: flex-start;
-            gap: 8px;
-            display: flex;
-          "
-        >
-          <div
-            style="width: 24px; height: 24px; border: 1.5px #1d2939 solid"
-          ></div>
-        </div>
+    <div class="container">
+      <div class="heading">
+        <h1>Today's To-Do</h1>
       </div>
-      <div
-        style="
-          align-self: stretch;
-          padding: 16px;
-          background: #d0d5dd;
-          border-radius: 8px;
-          border: 1px #98a2b3 solid;
-          justify-content: space-between;
-          align-items: flex-start;
-          display: inline-flex;
-        "
-      >
-        <div
-          style="
-            padding: 8px;
-            justify-content: center;
-            align-items: center;
-            gap: 8px;
-            display: flex;
-          "
-        >
-          <div
-            style="
-              color: #1d2939;
-              font-size: 16px;
-              font-family: Poppins;
-              font-weight: 400;
-              word-wrap: break-word;
-            "
-          >
-            Enter daily tasks
-          </div>
-        </div>
-        <div
-          style="
-            width: 40px;
-            height: 40px;
-            padding: 8px;
-            background: #98a2b3;
-            border-radius: 8px;
-            overflow: hidden;
-            justify-content: flex-start;
-            align-items: flex-start;
-            gap: 8px;
-            display: flex;
-          "
-        >
-          <div
-            style="width: 22px; height: 22px; border: 1.5px #1d2939 solid"
-          ></div>
-        </div>
-      </div>
-      <div
-        style="
-          width: 61px;
-          padding: 8px;
-          justify-content: center;
-          align-items: center;
-          gap: 8px;
-          display: inline-flex;
-        "
-      >
-        <div
-          style="
-            color: #1d2939;
-            font-size: 16px;
-            font-family: Poppins;
-            font-weight: 400;
-            word-wrap: break-word;
-          "
-        >
-          Tasks
-        </div>
-      </div>
-      <div
-        style="
-          align-self: stretch;
-          height: 48px;
-          justify-content: space-between;
-          align-items: center;
-          display: inline-flex;
-        "
-      >
-        <div
-          style="
-            height: 48px;
-            justify-content: flex-start;
-            align-items: center;
-            gap: 22px;
-            display: flex;
-          "
-        >
-          <div
-            style="
-              padding: 8px;
-              justify-content: flex-start;
-              align-items: flex-start;
-              gap: 8px;
-              display: flex;
-            "
-          >
-            <div
-              style="
-                width: 32px;
-                height: 32px;
-                background: #98a2b3;
-                border-radius: 4px;
-              "
-            ></div>
-          </div>
-          <div
-            style="
-              padding: 8px;
-              justify-content: flex-start;
-              align-items: flex-start;
-              gap: 8px;
-              display: flex;
-            "
-          >
-            <div
-              style="
-                color: #1d2939;
-                font-size: 16px;
-                font-family: Poppins;
-                font-weight: 400;
-                word-wrap: break-word;
-              "
-            >
-              create components
-            </div>
-          </div>
-        </div>
-        <div
-          style="
-            height: 32px;
-            justify-content: flex-start;
-            align-items: center;
-            gap: 22px;
-            display: flex;
-          "
-        >
-          <div
-            style="
-              width: 32px;
-              height: 32px;
-              padding: 8px;
-              background: #98a2b3;
-              border-radius: 4px;
-              overflow: hidden;
-              justify-content: flex-start;
-              align-items: flex-start;
-              gap: 8px;
-              display: flex;
-            "
-          >
-            <div
-              style="
-                width: 15.75px;
-                height: 15.75px;
-                border: 1.5px #1d2939 solid;
-              "
-            ></div>
-          </div>
-          <div
-            style="
-              padding: 8px;
-              background: #98a2b3;
-              border-radius: 4px;
-              overflow: hidden;
-              justify-content: flex-start;
-              align-items: flex-start;
-              gap: 8px;
-              display: flex;
-            "
-          >
-            <div
-              style="width: 16px; height: 16px; border: 1.5px #1d2939 solid"
-            ></div>
-          </div>
-        </div>
+      <form class="form">
+        <input
+          name="todo"
+          id="todoInput"
+          type="text"
+          placeholder="Add a task"
+        />
+        <button type="button">
+          <span>Add</span>
+        </button>
+      </form>
+      <div>
+        <ul id="todos">
+          <!-- <li>Add Items</li> -->
+        </ul>
       </div>
     </div>
+    <script src="scripts.js"></script>
   </body>
 </html>
