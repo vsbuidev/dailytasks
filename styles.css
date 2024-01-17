@@ -12,6 +12,24 @@ body {
   font-size: 130%;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffeaa7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(198, 1%, 29%);
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(199, 1%, 40%);
+}
+
 .container {
   width: 100%;
   height: auto;
